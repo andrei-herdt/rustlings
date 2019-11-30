@@ -73,7 +73,7 @@ This will try to verify the completion of every exercise in a predetermined orde
 
 ```bash
 rustlings verify
-```
+```git@github.com:rust-lang/rustlings.gitgit@github.com:rust-lang/rustlings.git
 
 This will do the same as watch, but it'll quit after running.
 
