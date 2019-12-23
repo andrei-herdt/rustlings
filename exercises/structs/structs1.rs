@@ -1,11 +1,10 @@
 // structs1.rs
 // Address all the TODOs to make the tests pass!
 
-// I AM NOT DONE
 
-struct ColorClassicStruct {
-    name: &str,
-    hex: &str
+struct ColorClassicStruct<'a> {
+    name: &'a str,
+    hex: &'a str
 }
 
 struct ColorTupleStruct(String, String);
